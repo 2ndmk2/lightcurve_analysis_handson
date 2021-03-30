@@ -8,10 +8,13 @@ https://docs.anaconda.com/anaconda/install/
 
 ## 2. Install python modules
 ### 2.1 List of requisite modules
-1. lightkurve (https://docs.lightkurve.org/quickstart.html)  ("conda install" may give you old version (v1), so you had better install it using pip)  
-2. batman (https://lweb.cfa.harvard.edu/~lkreidberg/batman/) (if you have problem w/ gcc, you may had better downgrade Xcode to 11.5 from 12.X)
-3. lmfit (https://lmfit.github.io/lmfit-py/)  
-4. numpy, matplotlib, scipy **(automatically installed through anaconda)**
+#### 2.1.1 lightkurve (https://docs.lightkurve.org/quickstart.html)  
+"conda install" may give you old version (v1), so you had better install it using pip.  
+It will also automatically install astropy, which is used in Tutorial 4 once
+#### 2.1.2 batman (https://lweb.cfa.harvard.edu/~lkreidberg/batman/)  
+if you have problem w/ gcc, you may had better downgrade Xcode to 11.5 from 12.X. 
+#### 2.1.3 lmfit (https://lmfit.github.io/lmfit-py/)  
+#### 2.1.4 numpy, matplotlib, scipy **(automatically installed through anaconda)**
 
 ### 2.2 how to install modules
 #### (a) If you want to install ##,  
