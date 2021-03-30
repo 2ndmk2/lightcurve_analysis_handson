@@ -24,17 +24,12 @@ conda install -c conda-forge ## (to see another repository.)
 pip install ##  
 (pip & anaconda are sometimes interfered with each other, so you should be carefule about that. )
 
-## 3. 走らせる
-2で作成したc_compile_ring.soをimportすれば使用できる。  
-exoring_testフォルダに使用例(fit_test.py)を載せた。  
-- python fit_test.py  
-
-と打てば動く。このコードでは、実際にAizawa+2017で解析したデータ(Q8_l_KIC10403228_test_detrend.dat)を読み込み
-それと指定したパラメータ (para_result_ring.datの2列目)でのモデルフラックスを並べてplotしてくれる。  
-
-## 番外編 (./c_ext)
-c_extフォルダでは実際にcを用いたフィッティングなどを行ってくれる。  
-gslをインストールした後に、  
-- gcc main.c mpfit.c -lgsl -lgslcblas  
-
-として作成した実行ファイルを実行するとフィティングまでしてくれる。  
+## 3. Tutorials
+### 3.1 Test for fitting with LM method 
+run "Tutorial1_test_for_LM_fitting.ipynb"
+### 3.2 Test for transit calculation (Tutorial2_test_for_transit_calc.ipynb)
+run Tutorial2_test_for_transit_calc.ipynb
+### 3.3 Test for fitting transit light curves with LM method  
+run "Tutorial3_transit_fitting.ipynb"
+### 3.4 Analyze transits for pi mesa (first TESS planet)
+run "Tutorial4_pi_mesa.ipynb"
