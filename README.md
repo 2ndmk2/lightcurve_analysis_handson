@@ -13,16 +13,16 @@ Following modules should be installed by hands.
 - lightkurve (https://docs.lightkurve.org/quickstart.html)  
 - batman (https://lweb.cfa.harvard.edu/~lkreidberg/batman/)  
 - lmfit (https://lmfit.github.io/lmfit-py/)  
--  
-If you want to install ##, 
+- 
+If you want to install ##,  
 type "conda install ##"  
   
-If modules are not in conda repository, 
-type "conda install -c conda-forge ##" (to see another repository.)
+If modules are not in conda repository,  
+type "conda install -c conda-forge ##" (to see another repository.)  
   
-If you cannot install ##, 
+If you cannot install ##,  
 type "pip install ##"  
-
+  
 pip & anaconda are sometimes interfered with each other, so you should be carefule about that. 
 
 ## 3. 走らせる
