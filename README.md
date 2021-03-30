@@ -31,5 +31,5 @@ run "Tutorial1_test_for_LM_fitting.ipynb"
 run Tutorial2_test_for_transit_calc.ipynb
 ### 3.3 Test for fitting transit light curves with LM method  
 run "Tutorial3_transit_fitting.ipynb"
-### 3.4 Analyze transits for pi mesa (first TESS planet)
-run "Tutorial4_pi_mesa.ipynb"
+### 3.4 Analyze transits for Pi Mensae (first TESS planet)
+run "Tutorial4_pi_mensae.ipynb.ipynb"
