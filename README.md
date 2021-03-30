@@ -15,13 +15,13 @@ Following modules should be installed by hands.
 3. lmfit (https://lmfit.github.io/lmfit-py/)  
 
 - If you want to install ##,  
->>type "conda install ##"  
+>type "conda install ##"  
   
 - If modules are not in conda repository,  
->>type "conda install -c conda-forge ##" (to see another repository.)  
+>type "conda install -c conda-forge ##" (to see another repository.)  
   
 - If you cannot install ##,  
->>type "pip install ##"  
+>type "pip install ##"  
   
 - pip & anaconda are sometimes interfered with each other, so you should be carefule about that. 
 
