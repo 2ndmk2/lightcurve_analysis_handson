@@ -8,7 +8,7 @@ https://docs.anaconda.com/anaconda/install/
 
 ## 2. Install python modules
 ### 2.1 List of requisite modules
-#### 2.1.1 lightkurve (https://docs.lightkurve.org/quickstart.html)  
+#### 2.1.1 lightkurve @v2.0.7 (https://docs.lightkurve.org/quickstart.html)  
 "conda install" may give you old version (v1), so you had better install it using pip.  
 It will also automatically install astropy, which is used in Tutorial 4 just once. 
 #### 2.1.2 batman (https://lweb.cfa.harvard.edu/~lkreidberg/batman/)  
