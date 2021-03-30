@@ -25,7 +25,7 @@ conda install -c conda-forge ## (to see another repository.)
  
 #### (c) If modules cannot be install by (a) & (b), use pip
 pip install ##  
-(pip & anaconda are sometimes interfered with each other, so you should be carefule about that. )
+(pip & anaconda are sometimes interfered with each other, so you should be careful about that. )
 
 ## 3. Tutorials
 ### 3.1 Test for fitting with LM method 
