@@ -14,13 +14,13 @@ https://docs.anaconda.com/anaconda/install/
 4. numpy, matplotlib, scipy (automatically installed through anaconda)
 
 ### 2.2 how to install modules
-- If you want to install ##,  
-**conda install ## **
+#### (a) If you want to install ##,  
+**conda install ##**  
 
-- If modules are not in conda repository,  
+#### (b) If modules cannot be install by (a), search in another repository,  
 **conda install -c conda-forge ##** (to see another repository.)  
  
-- If you cannot install ## using conda,  
+#### (c) If modules cannot be install by (a) & (b), use pip
 **pip install ##**  
 (pip & anaconda are sometimes interfered with each other, so you should be carefule about that. )
 
