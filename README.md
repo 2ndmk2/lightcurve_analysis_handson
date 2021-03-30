@@ -10,7 +10,7 @@ https://docs.anaconda.com/anaconda/install/
 ### 2.1 List of requisite modules
 #### 2.1.1 lightkurve (https://docs.lightkurve.org/quickstart.html)  
 "conda install" may give you old version (v1), so you had better install it using pip.  
-It will also automatically install astropy, which is used in Tutorial 4 once
+It will also automatically install astropy, which is used in Tutorial 4 just once. 
 #### 2.1.2 batman (https://lweb.cfa.harvard.edu/~lkreidberg/batman/)  
 if you have problem w/ gcc, you may had better downgrade Xcode to 11.5 from 12.X. 
 #### 2.1.3 lmfit (https://lmfit.github.io/lmfit-py/)  
