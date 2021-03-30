@@ -15,13 +15,13 @@ https://docs.anaconda.com/anaconda/install/
 
 ### 2.2 how to install modules
 #### (a) If you want to install ##,  
-**conda install ##**  
+conda install ## 
 
 #### (b) If modules cannot be install by (a), search in another repository,  
-**conda install -c conda-forge ##** (to see another repository.)  
+conda install -c conda-forge ## (to see another repository.)  
  
 #### (c) If modules cannot be install by (a) & (b), use pip
-**pip install ##**  
+pip install ##  
 (pip & anaconda are sometimes interfered with each other, so you should be carefule about that. )
 
 ## 3. 走らせる
