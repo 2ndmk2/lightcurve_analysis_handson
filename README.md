@@ -7,11 +7,11 @@ https://docs.anaconda.com/anaconda/install/
 
 
 ## 2. Install python modules
-### 2.1 List of requsite modules
+### 2.1 List of requisite modules
 1. lightkurve (https://docs.lightkurve.org/quickstart.html)  
 2. batman (https://lweb.cfa.harvard.edu/~lkreidberg/batman/)  
 3. lmfit (https://lmfit.github.io/lmfit-py/)  
-4. numpy, matplotlib, scipy (automatically installed through anaconda)
+4. numpy, matplotlib, scipy **(automatically installed through anaconda)**
 
 ### 2.2 how to install modules
 #### (a) If you want to install ##,  
