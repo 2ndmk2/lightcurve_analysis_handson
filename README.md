@@ -1,8 +1,5 @@
 ## Learning lightcurve analysis (work at ./ipynb)
 
-太陽系外惑星+リングのトランジットカーブを計算するコード。
-元のコードはcで書かれているので、wrapperでpythonでも使えるようにしておく。
-
 ## 1. Prepartion
 -  Install python & Jupyter  
 -  Anaconda may be the easiest way to install python, Jupyter, and other modules  
@@ -10,13 +7,14 @@ https://docs.anaconda.com/anaconda/install/
 
 
 ## 2. Install python modules
-以下の二つのコマンドを(python_extフォルダで)打つと、shared library (c_compile_ring.so)が作成できる。  
-ただし、  
-/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/Headers  
-はPython.hがある場所のpathに変更しておくようにする。  
+- If you install python through anaconda, you already have a basic modules (e.g. numpy, matplotlib, scipy)  
+- Following modules should be installed by hands. If you want to install ##, "conda install ##" is the command.  
+If modules are not in conda repository, you can type "conda install -c conda-forge ##" to see another repository. 
+- lightkurve (https://docs.lightkurve.org/quickstart.html)  
+- batman (https://lweb.cfa.harvard.edu/~lkreidberg/batman/)  
+- lmfit (https://lmfit.github.io/lmfit-py/)
 
-- gcc -fpic -I/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/Headers -o c_compile_ring.o -c c_compile_ring.c  
-- gcc -undefined dynamic_lookup -bundle -lgsl -lgslcblas c_compile_ring.o -o c_compile_ring.so  
+
 
 ## 3. 走らせる
 2で作成したc_compile_ring.soをimportすれば使用できる。  
