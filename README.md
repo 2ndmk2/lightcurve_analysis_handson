@@ -7,6 +7,8 @@ https://docs.anaconda.com/anaconda/install/
 
 
 ## 2. Install python modules
+### 2.1 List of requsite modules
+
 If you install python through anaconda, you already have a basic modules (e.g. numpy, matplotlib, scipy).   
 
 Following modules should be installed by hands.  
@@ -14,16 +16,16 @@ Following modules should be installed by hands.
 2. batman (https://lweb.cfa.harvard.edu/~lkreidberg/batman/)  
 3. lmfit (https://lmfit.github.io/lmfit-py/)  
 
+### 2.2 how to install modules
 - If you want to install ##,  
->type "conda install ##"  
-  
+**conda install ## **
+
 - If modules are not in conda repository,  
->type "conda install -c conda-forge ##" (to see another repository.)  
-  
-- If you cannot install ##,  
->type "pip install ##"  
-  
-- pip & anaconda are sometimes interfered with each other, so you should be carefule about that. 
+**conda install -c conda-forge ##** (to see another repository.)  
+ 
+- If you cannot install ## using conda,  
+**pip install ##**  
+(pip & anaconda are sometimes interfered with each other, so you should be carefule about that. )
 
 ## 3. 走らせる
 2で作成したc_compile_ring.soをimportすれば使用できる。  
